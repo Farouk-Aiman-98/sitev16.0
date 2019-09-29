@@ -1,0 +1,221 @@
+body {
+}
+/* Start NavBar */
+.navbar {
+}
+.navbar .collapse {
+	flex-grow:0
+}
+.navbar .collapse .navbar-nav {
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	margin-top: 7px;
+	background-color: #343A40;
+	color: #FFF !important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+	color: #FFF !important;
+	padding-left: 10px;
+	transition: all 0.5s ease-in-out
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a:hover {
+	color: #000 !important;
+	padding-left: 15px !important;
+}
+.navbar-collapse {
+}
+/* End NavBar */
+/* Start Main Header */
+.mainHeader {
+	background-color: #283747;
+}
+.mainHeader .slide {
+}
+.mainHeader .slide .carousel-inner {
+}
+.mainHeader .slide .carousel-inner .carousel-item {
+}
+.mainHeader .slide .carousel-inner .carousel-item .carousel-caption {
+	background: rgba(0,0,0,0.8);
+	margin-bottom: 5%
+}
+/* End Main Header */
+/* Start Features */
+.mainSection .features {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.mainSection .features .h1 {
+	padding: 20px;
+}
+.mainSection .features .card {
+	margin-bottom: 15px;
+}
+.mainSection .features .card .icon {
+	font-size: 80px;
+	margin: 10px auto
+}
+/* End Features */
+/* Start About Me */
+.about-me {
+	background: url(../images/4-5.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.about-me .overlay {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: rgba(0,0,0,0.7)
+}
+/* End About Me */
+/* Start Pricing */
+.pricing {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #DDD;
+}
+.pricing .price {
+	border-top: 4px #000 solid;
+	border-bottom: 4px #000 solid;
+	background-color: #FFF;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+}
+.pricing .price .h1 {
+	padding: 20px 0;
+}
+.pricing .price h3 {
+	display: inline-block;
+	background-color: #DDD;
+	padding: 20px 15px;
+	border-radius: 50%;
+	transition: all 0.5s ease-in-out
+}
+.pricing .price:hover h3 {
+	transform:rotate(-360deg) scale(1.2,1.2)
+}
+.pricing .price ul {
+	line-height: 2;
+}
+.pricing .price ul li {
+	font-size: 18px
+}
+/* End Pricing */
+/* Start Review */
+.review {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.review .reviewcontent {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.review .reviewcontent .memberImg {
+	padding-left: 20px;
+	text-align: center
+}
+.review .reviewcontent .memberImg img {
+	width: auto;
+	height: 150px;
+	padding: 20px;
+	border-left: 4px #FFF solid
+}
+.review .reviewcontent .memberContent {
+	padding: 25px 10px 25px 0;
+}
+.review2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.review2 .reContent {
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	border-top: 2px #000 solid;
+	border-bottom: 2px #F00 solid
+}
+.review2 .reContent .image {
+}
+.review2 .reContent img {
+	width: 150px;
+	height: 150px;
+}
+/* End Review */
+/* Start Portfolio */
+.Portfolio {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.Portfolio .work {
+	border: 2px #DDD solid;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.Portfolio .work .over {
+	position:absolute;
+	text-align: left;
+	padding: 10px;
+	color: #FFF;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+}
+.Portfolio .work .over h3 {
+	margin-top: 40%;
+	font-weight: bold;
+}
+.Portfolio .work img {
+	width: 100%;
+}
+.Portfolio .work .overlay {
+	display: none;
+	position:absolute;
+	color: #212121 ;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(255, 202, 40,0.7);
+}
+.Portfolio .work .overlay h3 {
+	margin-top: 40%;
+	font-weight: bold;
+}
+/* End Portfolio */
+/* Start form */
+.form {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: rgba(0,0,0,0.5);
+	color: #fff
+}
+/* End form */
+/* Footer */
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #343A40;
+	color: #FFF
+}
+footer ul:first-child {
+	background: none;
+	margin-left: 50px;
+}
+footer ul .list-group-item {
+	background: none;
+	cursor: pointer;
+	border-left:  1px solid rgba(255, 255, 255, 0.5) !important;
+	width: 70%;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+footer .lista {
+	padding-top: 20px;
+}
+footer .lista .icon {
+	font-size: 50px;
+	margin: 15px;
+	cursor: pointer
+}
+/*# sourceMappingURL=style.css.map */
