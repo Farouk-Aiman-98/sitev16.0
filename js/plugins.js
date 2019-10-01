@@ -13,11 +13,9 @@
 	});
 	$(".Portfolio .work").mouseleave(function () {
 		$(this).children(".Portfolio .work .over").show(500);
-		$(this).children(".Portfolio .work .overlay").fadeOut(500);
+		$(this).children(".Portfolio .work .overlay").delay().fadeOut(500);
 	});
-	
 	$(".navbar .collapse .navbar-nav li").click().addClass("active").siblings().removeClass("active");
-	
 	$(".itemTwo").click(function () {
 		$("html , body").animate({
 			scrollTop: $("#features").offset().top - $('.navbar').height() - 16
@@ -35,7 +33,7 @@
 	});
 	$(".itemFive").click(function () {
 		$("html , body").animate({
-			scrollTop: $("footer").offset().top - $('.navbar').height() - 16
+			scrollTop: $(".form").offset().top - $('.navbar').height() - 16
 		}, 700);
 	});
 }());
