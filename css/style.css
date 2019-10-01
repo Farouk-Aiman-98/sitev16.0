@@ -32,8 +32,10 @@ body {
 .mainHeader .slide {
 }
 .mainHeader .slide .carousel-inner {
+	height: 500px
 }
 .mainHeader .slide .carousel-inner .carousel-item {
+	height: 500px
 }
 .mainHeader .slide .carousel-inner .carousel-item .carousel-caption {
 	background: rgba(0,0,0,0.8);
@@ -166,6 +168,10 @@ body {
 }
 .Portfolio .work img {
 	width: 100%;
+	transition: all .4s ease-in-out
+}
+.Portfolio .work:hover img {
+	transform: scale(1.2,1.2)
 }
 .Portfolio .work .overlay {
 	display: none;
@@ -194,28 +200,33 @@ body {
 /* End form */
 /* Footer */
 footer {
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-bottom: 30px;
 	background: #343A40;
 	color: #FFF
 }
-footer ul:first-child {
-	background: none;
-	margin-left: 50px;
+footer ul {
+	margin-bottom: 20px !important
 }
 footer ul .list-group-item {
 	background: none;
 	cursor: pointer;
-	border-left:  1px solid rgba(255, 255, 255, 0.5) !important;
-	width: 70%;
 	border: 1px solid rgba(255, 255, 255, 0.5);
+	transition: all 0.3s ease-in-out;
+}
+footer ul .list-group-item:hover {
+	background: rgba(255,255,255,0.5);
+	padding-left: 5px;
 }
 footer .lista {
-	padding-top: 20px;
 }
 footer .lista .icon {
 	font-size: 50px;
 	margin: 15px;
-	cursor: pointer
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+footer .lista .icon:hover {
+	transform: scale(1.1,1.1)
 }
 /*# sourceMappingURL=style.css.map */
